@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/ivIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_border"
+        android:gravity="center"
+        android:text="Favourite Places List"
+        android:textColor="#F7F5F5"
+        android:textSize="27sp" />
+
+    <ScrollView
+        android:id="@+id/sv_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvMain"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/rounded_button"
+                android:text="St. Martin's Island"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Cox's Bazar"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Nilgiri"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Kaptai Lake"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Shubhalang waterfall"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Foys lake"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="Jaflong"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Sundarban"
+                android:textColor="#009688"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
